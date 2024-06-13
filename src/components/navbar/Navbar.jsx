@@ -18,9 +18,6 @@ const Navbar = () => {
           <span></span>
           <span></span>
        </div>
-       
-
-      
          <ul className={menuOpen ? "open" : ""}>
            <li className="nav__item">
              <NavLink to="/dashboard" className="nav__link">
@@ -56,7 +53,6 @@ const Navbar = () => {
                Drive Application
              </NavLink>
            </li>
-           
            {/* <li className="nav__item">
              <NavLink to="/get-started" className="nav__link nav__cta">
                Get Started

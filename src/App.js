@@ -15,7 +15,7 @@ function App() {
       <Navbar />
         <main className="main-content">
        <Routes>
-         <Route exact path="/getfly-assignment"  element={<Navigate to="/dashboard" />} />
+         <Route path="/getfly-assignment"  element={<Navigate to="/dashboard" />} />
          <Route path="/dashboard" element={<Dashboard />} />
          <Route path="/notification" element={<Notification />} />
          <Route path="/faqs" element={<Faqs />} />

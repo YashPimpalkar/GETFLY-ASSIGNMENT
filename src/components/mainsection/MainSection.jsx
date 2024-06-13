@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { format } from 'date-fns';
 import './main.css';
-
 const MainSection = () => {
   // const [seminars, setSeminars] = useState([]);
-
   // useEffect(() => {
   //   axios.get('http://localhost:8000/api/seminars/find/future')
   //     .then(response => {
