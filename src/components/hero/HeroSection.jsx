@@ -6,7 +6,7 @@ import './herosection.css'; // Import the CSS file
     const providedSeminars = 10;
     const attendedSeminars = 800;
   return (
-    <div className="hero-container">
+    <div className="hero hero-container">
       <h1>Welcome to Our Seminar Dashboard</h1>
       <p>This section contains the number of seminars the organization has provided to the students and the number of seminars students have attended.</p>
       <div className="seminar-stats">
@@ -14,7 +14,7 @@ import './herosection.css'; // Import the CSS file
           <h2>NO. of Seminars Provided By Organization</h2>
           <span>{providedSeminars}</span>
         </div>
-        <div className="seminar-stat">
+        <div className="seminar-stat"> 
           <h2>NO. of Seminars Attended BY Students</h2>
           <span>{attendedSeminars}</span>
         </div>
