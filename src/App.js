@@ -12,9 +12,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <div className="App">
-   
       <Navbar />
-      
         <main className="main-content">
        <Routes>
          <Route exact path="/getfly-assignment"  element={<Navigate to="/Dashboard" />} />
@@ -27,8 +25,6 @@ function App() {
        </Routes>
        <Footer />
      </main>
-   
-       
     </div>
   );
 }

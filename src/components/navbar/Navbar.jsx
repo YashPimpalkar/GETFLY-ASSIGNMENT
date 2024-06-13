@@ -9,7 +9,7 @@ const Navbar = () => {
  return (
   
      <nav className="nav nav-container">
-       <Link to="/getfly-assignment" className="nav__logo">
+       <Link to="/dashboard" className="nav__logo">
          Drives
        </Link>
 
